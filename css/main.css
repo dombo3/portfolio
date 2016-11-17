@@ -33,11 +33,18 @@ header {
 /*Main*/
 
 main {
-    background: #fff url("../img/mountains-home.jpg") center top/cover;
+		background: #fff url("../img/mountains-home-mobile.jpg") center top/cover;
 }
 
 /*Footer*/
 
 footer {
     
+}
+
+@media screen and (min-width: 480px) {
+		
+		main {
+				background: #fff url("../img/mountains-home.jpg") center top/cover;
+		}
 }
