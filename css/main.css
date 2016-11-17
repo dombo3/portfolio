@@ -1,0 +1,43 @@
+/* * {
+    border: dashed blue;
+} */
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+/*Navbar*/
+
+nav {
+		background: transparent !important;
+}
+
+nav .navbar-brand {
+    font-family: 'Eagle Lake', cursive;
+}
+
+nav li[class="active"] a{
+		background: none !important;
+		font-weight: bold !important;
+}
+
+/*Header*/
+
+header {
+    height: auto;
+		text-align: center;
+}
+
+/*Main*/
+
+main {
+    
+}
+
+/*Footer*/
+
+footer {
+    
+}
