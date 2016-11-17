@@ -11,7 +11,7 @@ html, body {
 /*Navbar*/
 
 nav {
-		background: transparent !important;
+		background-color: rgba(200,200,200,.4) !important;
 }
 
 nav .navbar-brand {
@@ -26,14 +26,14 @@ nav li[class="active"] a{
 /*Header*/
 
 header {
-    height: auto;
+    height: 200px;
 		text-align: center;
 }
 
 /*Main*/
 
 main {
-    
+    background: #fff url("../img/mountains-home.jpg") center top/cover;
 }
 
 /*Footer*/
