@@ -4,6 +4,10 @@ html, body {
     font-family: 'Varela Round', sans-serif;
 }
 
+a:hover {
+	text-decoration: none;
+}
+
 /*Navbar*/
 
 nav {
@@ -38,9 +42,9 @@ main {
 		
 }
 
-main img.portfolio {
-		width:300;
-		height:200;
+main img {
+		width:300px;
+		height:200px !important;
 }
 
 .caption p {
@@ -50,7 +54,31 @@ main img.portfolio {
 /*Footer*/
 
 footer {
-    
+	background: rgb(200,200,200);
+  height: 60px;
+}
+
+footer a, footer a:hover  {
+	color: rgb(51,51,51);
+}
+
+footer .logo span{
+	font-family: 'Eagle Lake', cursive;
+}
+
+footer p {
+	line-height: 60px;
+	padding:0;
+	margin:0;
+}
+
+footer .email {
+	text-align: center;
+}
+
+footer ul > li > a:hover {
+	background: none !important;
+	color: black;
 }
 
 @media screen and (min-device-width: 480px) {
