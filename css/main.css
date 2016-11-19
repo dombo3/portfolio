@@ -73,7 +73,7 @@ footer p {
 
 footer ul{
 	padding: 0;
-	width: 200px;
+	width: 150px;
 	margin: auto;
 }
 
@@ -90,12 +90,16 @@ footer ul > li > a:hover {
 
 @media screen and (min-width: 480px) {
 		
-		header {
+	header {
 				background: #fff url("../img/mountains-home.jpg") center top/1366px auto no-repeat;
-		}
-		
+	}
+	
 	footer .logo {
 		text-align: left;
+	}
+	
+	footer ul {
+		margin-right: 0;
 	}
 }
 
