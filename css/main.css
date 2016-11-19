@@ -55,6 +55,7 @@ main img {
 
 footer {
 	background: rgb(200,200,200);
+	text-align: center;
 }
 
 footer a, footer a:hover  {
@@ -67,12 +68,19 @@ footer .logo span{
 
 footer p {
 	line-height: 60px;
-	padding:0;
 	margin:0;
 }
 
-footer .email {
-	text-align: center;
+footer ul{
+	padding: 0;
+	width: 200px;
+	margin: auto;
+}
+
+footer li {
+	display: inline-block;
+	padding: 15px 0;
+	margin: 0 10px;
 }
 
 footer ul > li > a:hover {
@@ -80,11 +88,15 @@ footer ul > li > a:hover {
 	color: black;
 }
 
-@media screen and (min-device-width: 480px) {
+@media screen and (min-width: 480px) {
 		
 		header {
 				background: #fff url("../img/mountains-home.jpg") center top/1366px auto no-repeat;
 		}
+		
+	footer .logo {
+		text-align: left;
+	}
 }
 
 @media screen and (min-width: 1367px) {
