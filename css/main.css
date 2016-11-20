@@ -114,7 +114,7 @@ footer ul > li > a:hover {
 	color: black;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 1000px) {
 		
 	header {
 				background: #fff url("../img/mountains-home.jpg") center top/1366px auto no-repeat;
