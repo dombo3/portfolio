@@ -1,0 +1,36 @@
+/*Header*/
+
+header {
+	background: rgb(250,250,250);
+	margin: 0;
+}
+
+nav.navbar.navbar-default {
+	margin: 0;
+	border: none;
+}
+
+/*Main*/
+
+main {
+	background: rgb(200, 200, 200) url("../img/mountains-home.jpg") no-repeat center center;
+}
+
+
+main .intro {
+	background: rgba(250,250,250,.7);
+	height: 545px;
+	font-weight: bold;
+}
+
+.intro p {
+	margin: 20px 0;
+	font-size:22px;
+}
+
+main img.selfie {
+	width: 171;
+	height: 220;
+	margin: 10px 0;
+	opacity: .9;
+}
