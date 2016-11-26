@@ -11,7 +11,7 @@
 
     <title>Peter's Portfolio</title>
 
-
+		<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!--[if lt IE 9]>
@@ -29,7 +29,7 @@
   </head>
 
 <body>
-  <header>
+  <header id="home">
     <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -42,9 +42,9 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="https://dombo3.github.io/portfolio">Home</a></li>
-        <li><a href="/portfolio/page/about.html">About</a></li>
-        <li><a href="/portfolio/page/contact.html">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#card">Contact</a></li>
       </ul>
         
           </div>
@@ -227,6 +227,19 @@
     </div>
   </main>
 	
+	<div class="jumbotron" id="about">
+		<div class="container">
+			<div class="col-md-4">
+				<img src="/portfolio/img/facebook-img.jpg" alt="">
+			</div>
+			<div class="col-md-8">
+				<h2>Hello!</h2>
+				<p class="text-justify">My name is Peter Dombovari. I am a hydrogeoligist engineer, who started to learn the basics of softwer developing. First I narrowed my focus on web development, focusing on HTML5, CSS, JavaScript, JQuery. My aim is to deepen my knowledge in this area, while gain insight into programming langueges like Phyton, Ruby and implement it into my work. I love that I am facing problems every day that I can learn from, and I am continously learning more every day.</p>
+				<p class="text-justify">Feel free to get in touch with me. You can check my progress at Codecademy page, or check my PREZumé here.</p>
+			</div>
+		</div>
+	</div>
+	
 	<section>
 		<div class="container partners">
 			<h3>Partners:</h3>
@@ -258,11 +271,43 @@
 </div>
 	</section>
 	
+	<section>
+		<div class="w3-container outer" id="card">
+		<div class="w3-card-4">
+
+<div class="w3-container one">
+  <h3>Peter Dombovari</h3>
+</div>
+
+<div class="w3-container two">
+  <p></p>
+  <hr>
+  <!--<img src="/portfolio/img/Aquaworld_Peti.png" alt="Avatar" class="w3-left w3-circle">-->
+	<div>
+	<p class="text-right">Front End Developer</p>
+		<address class="text-right">
+			tel.: +36/20-823-42-06 <br><a href="mailto:dombo.peter@gmail.com">dombo.peter@gmail.com</a><br> 
+			2100, Gödöllő<br>
+			HUNGARY
+		</address>
+	</div>
+</div>
+
+			<button class="w3-btn-block"><a href="https://prezi.com/mfkz1r-hcdds/white-board-prezume-keszitette-peter-dombovari/" target="_blank">PREZumé</a></button>
+
+</div>
+		</div>
+	</section>
+	
+	
+	
+	
+	
   <footer>
 		<div class="container">
 			<div class="row">
     		<div class="col-md-4 logo">
-					<p><a href="dombo3.github.io/portfolio">&copy; <span>Peter's</span></a></p>
+					<p><a href="https://dombo3.github.io/portfolio">&copy; <span>Peter's</span></a></p>
 				</div>
 				
 				<div class="col-md-4 email">
@@ -279,7 +324,19 @@
 				</div>
 				</div>
 			</div>
-   </footer>
-      
+   </footer>   
   </body>
+	
+	<script>
+		$('.carousel').carousel({
+  interval: 2500
+});
+		var $root = $('html, body');
+$('a').click(function() {
+    $root.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+    return false;
+});
+	</script>
 </html>

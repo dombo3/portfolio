@@ -11,11 +11,18 @@ a:hover {
 /*Navbar*/
 
 nav {
-		background-color: rgb(200,200,200) !important;
+		background-color: #466995 !important;
+		color: #fff;
+	  border: none !important;
 }
 
 nav .navbar-brand {
     font-family: 'Eagle Lake', cursive;
+		color: #fff !important;
+}
+
+.navbar-nav > li > a {
+    color: #fff !important;
 }
 
 nav li[class="active"] a{
@@ -26,17 +33,19 @@ nav li[class="active"] a{
 /*Header*/
 
 header {
-		background: #fff url("../img/mountains-home-small.jpg") center top;
+		background: #fff url("../img/mountains-home-slice.jpg") center top/1366px auto no-repeat;
+				background-attachment: fixed;
 		margin-bottom: 50px;
-}
-
-section.header-own {
-    height: 270px;
+		height: 300px;
 		text-align: center;
 }
 
 .header-own h1 {
-	margin-top: 70px;
+	margin-top: 80px;
+	color: #466995;
+	position:absolute;
+	right:0;
+	left:0;
 }
 
 /*Main*/
@@ -44,6 +53,10 @@ section.header-own {
 main img.portfolio{
 		width:300px;
 		height:200px !important;
+}
+
+main .thumbnail:hover {
+	box-shadow: 0 0 10px 1px #ddd;
 }
 
 .caption p {
@@ -60,6 +73,53 @@ main img.portfolio{
 }
 
 
+
+/*Jumbotron*/
+
+.jumbotron {
+	background-color: #DBE9EE;
+	color: #466995;
+	margin: 30px 0;
+}
+
+.jumbotron img {
+	border-radius: 100%;
+}
+
+.jumbotron p {
+	padding: 0 20px;
+}
+
+
+/*Card*/
+
+.w3-container.outer{
+	margin-bottom: 90px;
+}
+
+.w3-container.one {
+	background: #466995;
+	color: #fff;
+}
+
+.w3-container.two {
+	color: #466995;
+}
+
+.w3-container.two img {
+	height: 70px;
+	width: 70px;
+}
+
+.w3-card-4 {
+	width: 400px;
+	margin: auto;
+}
+
+.w3-btn-block {
+	background-color: #DBE9EE;
+}
+
 /*Carousel*/
 
 .carousel-inner > .item > img {
@@ -72,15 +132,28 @@ main img.portfolio{
 
 
 
+
 /*Footer*/
 
 footer {
-	background: rgb(200,200,200);
+	background: #466995;
 	text-align: center;
 }
 
-footer a, footer a:hover  {
-	color: rgb(51,51,51);
+footer a {
+	color: rgb(255,255,255);
+}
+
+footer a:visited {
+	color: #fff;
+}
+
+footer a:hover {
+	color: #DBE9EE;
+}
+
+footer a:active {
+	color: #DBE9EE;
 }
 
 footer .logo span{
@@ -93,9 +166,8 @@ footer p {
 }
 
 footer ul{
-	padding: 0;
-	width: 220px;
 	margin: auto;
+	padding: 0;
 }
 
 footer li {
@@ -104,33 +176,12 @@ footer li {
 	margin: 0 10px;
 }
 
-footer .prezi {
-	font-style: "Arial Black", Gadget, sans-serif;
-}
-
-footer ul > li > a:hover {
-	background: none !important;
-	color: black;
-}
-
-@media screen and (min-width: 1000px) {
-		
-	header {
-				background: #fff url("../img/mountains-home.jpg") center top/1366px auto no-repeat;
-	}
-	
+@media screen and (min-width: 992px) {
 	footer .logo {
 		text-align: left;
 	}
 	
 	footer ul {
-		margin-right: 0;
+		text-align: right;
 	}
-}
-
-@media screen and (min-width: 1367px) {
-		
-		header {
-				background: #fff url("../img/mountains-home.jpg") center top/1920px auto no-repeat;
-		}
 }
