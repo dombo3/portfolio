@@ -90,6 +90,10 @@ main .thumbnail:hover {
 	padding: 0 20px;
 }
 
+.jumbotron a {
+	text-decoration: underline;
+}
+
 
 /*Card*/
 
