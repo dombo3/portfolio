@@ -116,7 +116,7 @@ main .thumbnail:hover {
 }
 
 .w3-card-4 {
-	width: 400px;
+	max-width: 400px;
 	margin: auto;
 }
 
