@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+    <meta name="description" content="Portfolio">
+    <meta name="author" content="Dombóvári Péter">
+    <link rel="icon" href="favicon/favicon.png">
+
+    <title>Peter's Portfolio</title>
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+		<link rel="stylesheet" href="/portfolio/css/w3c.css">
+    
+		<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <link rel="stylesheet"  href="font-awesome-4.7.0/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Eagle+Lake|Varela+Round" rel="stylesheet">
+    
+    <link href="css/main.css" rel="stylesheet">
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+
+<body>
+  <header id="home">
+    <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="https://dombo3.github.io/portfolio">Peter's</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#card">Contact</a></li>
+      </ul>
+        
+          </div>
+        </div>
+      </nav>
+      
+      <section class="header-own">
+          <div class="container">
+            <div>
+              <h1>Dombovari Peter's Portfolio Page</h1>
+            </div>
+          </div>
+      </section>
+	</header> 
+      
+	<main>
+    <div class="container">
+				<div class="row">
+					<div class="col-md-4">
+							<div class="thumbnail">
+								<a href="https://dombo3.github.io/Codecademy/ProProjects/BestBite/" target="_blank">
+								<img class="portfolio" src="/portfolio/img/bestbite.jpeg" alt="Best Bite">
+								<div class="caption">
+										<p>Best Bite</p>
+								</div>
+								</a>
+							</div>
+					</div>
+					<div class="col-md-4">
+							<div class="thumbnail">
+								<a href="https://dombo3.github.io/Codecademy/ProProjects/Junction/" target="_blank">
+								<img class="portfolio" src="/portfolio/img/junction.jpeg" alt="Junction">
+								<div class="caption">
+										<p>Meet Junction</p>
+								</div>
+								</a>
+							</div>
+					</div>
+					<div class="col-md-4">
+							<div class="thumbnail">
+								<a href="https://dombo3.github.io/Codecademy/ProProjects/Bass/" target="_blank">
+								<img class="portfolio" src="/portfolio/img/bass.jpeg" alt="Bass">
+								<div class="caption">
+										<p>Bass</p>
+								</div>
+								</a>
+							</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+							<div class="thumbnail">
+								<a href="https://dombo3.github.io/Codecademy/ProProjects/RedEyePhotography/" target="_blank">
+								<img class="portfolio" src="/portfolio/img/redeye.jpeg" alt="Red Eye Photo">
+								<div class="caption">
+										<p>Red Eye Photography</p>
+								</div>
+								</a>
+							</div>
+					</div>
+					<div class="col-md-4">
+							<div class="thumbnail">
+								<a href="https://dombo3.github.io/Codecademy/ProProjects/ArmandoP%C3%A9rez/" target="_blank">
+								<img class="portfolio" src="/portfolio/img/armando.jpeg" alt="">
+								<div class="caption">
+										<p>Armando Pérez</p>
+								</div>
+								</a>
+							</div>
+					</div>
+					<div class="col-md-4">
+							<div class="thumbnail">
+								<a href="https://dombo3.github.io/Codecademy/ProProjects/Broadway/" target="_blank">
+								<img class="portfolio" src="/portfolio/img/broadway.jpeg" alt="">
+								<div class="caption">
+										<p>Broadway</p>
+								</div>
+								</a>
+							</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+							<div class="thumbnail">
+								<a href="https://dombo3.github.io/Codecademy/ProProjects/Adoptly/" target="_blank">
+								<img class="portfolio" src="/portfolio/img/adoptly.jpeg" alt="Adoptly">
+								<div class="caption">
+										<p>Adoptly</p>
+								</div>
+								</a>
+							</div>
+					</div>
+					<div class="col-md-4">
+							<div class="thumbnail">
+								<a href="https://dombo3.github.io/Codecademy/ProProjects/BoltNetwork/" target="_blank">
+								<img class="portfolio" src="/portfolio/img/bolt.jpeg" alt="Bolt Network">
+								<div class="caption">
+										<p>Bolt Network</p>
+								</div>
+								</a>
+							</div>
+					</div>
+					<div class="col-md-4">
+							<div class="thumbnail">
+								<a href="https://dombo3.github.io/Codecademy/ProProjects/Excursion/" target="_blank">
+								<img class="portfolio" src="/portfolio/img/excursion.jpeg" alt="Excursion">
+								<div class="caption">
+										<p>Excursion</p>
+								</div>
+								</a>
+							</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-4">
+							<div class="thumbnail">
+								<a href="https://dombo3.github.io/Codecademy/ProProjects/Headlines/" target="_blank">
+								<img class="portfolio" src="/portfolio/img/headlines.jpeg" alt="Headlines">
+								<div class="caption">
+										<p>Headlines</p>
+								</div>
+								</a>
+							</div>
+					</div>
+					<div class="col-md-4">
+							<div class="thumbnail">
+								<a href="https://dombo3.github.io/Codecademy/ProProjects/InnovationCloud/" target="_blank">
+								<img class="portfolio" src="/portfolio/img/innocloud.jpeg" alt="Innovation Cloud">
+								<div class="caption">
+										<p>Innovation Cloud</p>
+								</div>
+								</a>
+							</div>
+					</div>
+					<div class="col-md-4">
+							<div class="thumbnail">
+								<a href="https://dombo3.github.io/Codecademy/ProProjects/Move/" target="_blank">
+								<img class="portfolio" src="/portfolio/img/move.jpeg" alt="Move">
+								<div class="caption">
+										<p>Move</p>
+								</div>
+								</a>
+							</div>
+					</div>
+				</div>
+			
+				<div class="row">
+					<div class="col-md-4">
+							<div class="thumbnail">
+								<a href="https://dombo3.github.io/Codecademy/ProProjects/Shutterbugg/" target="_blank">
+								<img class="portfolio" src="/portfolio/img/shutterbugg.jpeg" alt="Shutterbugg">
+								<div class="caption">
+										<p>Shutterbugg</p>
+								</div>
+								</a>
+							</div>
+					</div>
+					<div class="col-md-4">
+							<div class="thumbnail">
+								<a href="https://dombo3.github.io/Codecademy/ProProjects/Pocketbook/" target="_blank">
+								<img class="portfolio" src="/portfolio/img/pocketbook.jpeg" alt="Pocketbook">
+								<div class="caption">
+										<p>Pocketbook</p>
+								</div>
+								</a>
+							</div>
+					</div>
+					<div class="col-md-4">
+							<div class="thumbnail">
+								<a href="#" target="_blank">
+								<img class="portfolio" src="http://placehold.it/300x200?text=Coming+Soon!" alt="">
+								<div class="caption">
+										<p>Coming Soon</p>
+								</div>
+								</a>
+							</div>
+					</div>
+				</div>
+    </div>
+  </main>
+	
+	<div class="jumbotron" id="about">
+		<div class="container">
+			<div class="col-md-4">
+				<img src="/portfolio/img/facebook-img.jpg" alt="">
+			</div>
+			<div class="col-md-8">
+				<h2>Hello!</h2>
+				<p class="text-justify">My name is Peter Dombovari. I am a hydrogeoligist engineer, who started to learn the basics of software developing. First I narrowed my focus on web development, focusing on HTML5, CSS, JavaScript, JQuery. My aim is to deepen my knowledge in this area, while gain insight into programming langueges like Phyton, Ruby and implement it into my work. I love that I am facing problems every day that I can learn from, and I am continously learning more every day.</p>
+				<p class="text-justify">Feel free to get in touch with me. You can check my progress at <a href="https://www.codecademy.com/dombo3" target="_blank">Codecademy page</a>, or check my <a href="https://prezi.com/mfkz1r-hcdds/white-board-prezume-keszitette-peter-dombovari/" target="_blank">PREZumé here.</a></p>
+			</div>
+		</div>
+	</div>
+	
+	<section>
+		<div class="container partners">
+			<h3>Partners:</h3>
+		</div>
+	</section>
+      
+	<section class="thecarousel">
+		<div class="container-fluid">
+			<div class="row">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="/portfolio/img/codecademy.png" alt="Codecademy">
+    </div>
+
+    <div class="item">
+      <img src="/portfolio/img/bootsrap.png" alt="Bootstrap">
+    </div>
+		
+		<div class="item">
+			<img src="/portfolio/img/w3c.png" alt="W3C">
+    </div>
+		
+		<div class="item">
+			<img src="/portfolio/img/html_css.png" alt="HTML5">
+    </div>
+		
+  </div>
+	</div>
+</div>
+</div>
+	</section>
+	
+	<section>
+		<div class="w3-container outer" id="card">
+		<div class="w3-card-4">
+
+<div class="w3-container one">
+  <h3>Peter Dombovari</h3>
+</div>
+
+<div class="w3-container two">
+  <hr>
+  <!--<img src="/portfolio/img/Aquaworld_Peti.png" alt="Avatar" class="w3-left w3-circle">-->
+	<div>
+	<p class="text-right">Front End Developer</p>
+		<address class="text-right">
+			tel.: +36/20-823-42-06 <br><a href="mailto:dombo.peter@gmail.com">dombo.peter@gmail.com</a><br> 
+			2100, Gödöllő<br>
+			HUNGARY
+		</address>
+	</div>
+</div>
+
+			<button class="w3-btn-block"><a href="https://prezi.com/mfkz1r-hcdds/white-board-prezume-keszitette-peter-dombovari/" target="_blank">PREZumé</a></button>
+
+</div>
+		</div>
+	</section>
+	
+	
+	
+	
+	
+  <footer>
+		<div class="container">
+			<div class="row">
+    		<div class="col-md-4 logo">
+					<p><a href="https://dombo3.github.io/portfolio">&copy; <span>Peter's</span></a></p>
+				</div>
+				
+				<div class="col-md-4 email">
+					<p><a href="mailto:dombo.peter@gmail.com">dombo.peter@gmail.com</a></p>
+				</div>
+							
+				<div class="col-md-4">
+					<ul>
+          	<li><a href="https://www.facebook.com/peter.dombovari?ref=br_rs" target="_blank" class="icon"><i class="fa fa-facebook fa-2x"></i></a></li>
+          	<li><a href="https://www.linkedin.com/in/p%C3%A9ter-domb%C3%B3v%C3%A1ri-733a1979?trk=nav_responsive_tab_profile" target="_blank" class="icon"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+          	<li><a href="https://www.instagram.com/d0mb03/" target="_blank" class="icon"><i 	class="fa fa-instagram fa-2x"></i></a></li>
+						<li><a href="https://prezi.com/mfkz1r-hcdds/white-board-prezume-keszitette-peter-dombovari/" target="_blank" class="icon prezi"><i class="fa fa-2x"><strong>Prezi</strong></i></a></li>
+        	</ul>
+				</div>
+				</div>
+			</div>
+   </footer>   
+  </body>
+	
+	<script>
+		$('.carousel').carousel({
+  interval: 2500
+});
+		var $root = $('html, body');
+$('a').click(function() {
+    $root.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+    return false;
+});
+	</script>
+</html>
